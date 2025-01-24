@@ -15,7 +15,7 @@ fn main() {
 
     loop {
         println!(
-            "Enter the number (<=32) to calculate factorial (enter `q` to exit the program): "
+            "Enter the number (<={MAX_INPUT}) to calculate factorial (enter `q` to exit the program): "
         );
         user_input.clear();
 
